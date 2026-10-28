@@ -76,7 +76,7 @@ figure.photo figcaption{font-size:.88rem;color:var(--muted);margin-top:.4rem}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card,.btn{transition:none}}
 
 
-
+/*formation*/
 .slider { max-width: 900px; margin: 1.5rem 0; }
 .slide-card {
   display: flex; gap: 1.5rem; align-items: center;
@@ -106,4 +106,21 @@ figure.photo figcaption{font-size:.88rem;color:var(--muted);margin-top:.4rem}
 @media (max-width: 640px) {
   .slide-card { flex-direction: column; text-align: center; }
   .slide-img { flex-basis: auto; }
+}
+
+
+
+/*compétence*/
+.skill-photo { margin: 1rem 0 0; text-align: center; }
+.skill-photo img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+.skill-photo figcaption {
+  font-size: .85rem;
+  color: #666;
+  margin-top: .4rem;
 }
